@@ -1,4 +1,4 @@
-# humanDetection
+# People counting 
 Create human detective programming with tensorflow
 
 # Create env on mac m1   
