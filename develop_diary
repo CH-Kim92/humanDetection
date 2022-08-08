@@ -5,12 +5,12 @@ Counting person based on the line
 1. Using OpenCV to capture webcam 
 2. Select the region I am interested in 
 3. Draw line on the display
-4. Track objects that are moving (using opencv) 
+4. Track objects that are moving (using opencv) **
 5. Create mask of the captured object if the size is over than set value (1000) to avoid noise 
 `area= cv2.contourArea(cnt)` `area > 1000` 
 6. Put text on the display (cv.line) 
-
+7. Trainning own dataset using yolov5 
 
 
 # Challenging
-* duplicate counting 
+  * duplicate counting (Tracking object is necessary) 
