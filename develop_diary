@@ -2,6 +2,7 @@
 
 Counting person based on the line 
 
+
 1. Using OpenCV to capture webcam 
 2. Select the region I am interested in 
 3. Draw line on the display
@@ -10,7 +11,12 @@ Counting person based on the line
 `area= cv2.contourArea(cnt)` `area > 1000` 
 6. Put text on the display (cv.line) 
 7. Trainning own dataset using yolov5 
-
+8. Draw circles on a cnetre of objects to count if the circle is above the line 
 
 # Challenging
   * duplicate counting (Tracking object is necessary) 
+  * The person hide behind wall, the number is discounted
+  
+# Idea
+ Make a filter that can compare current position of object and previous position. As the property of the way, new person should display the bottom of the line at the first time. 
+ So if the circle was below the line and passes the line then count 
