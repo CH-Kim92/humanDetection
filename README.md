@@ -27,5 +27,8 @@ Labeling on images and save the files as COCO dataset.
 
 https://user-images.githubusercontent.com/84103637/184191965-72b380d0-aa8f-43fb-b19d-b6333b54eca0.mp4
 
-## Final<img width="956" alt="Screenshot 2022-08-12 at 22 20 23" src="https://user-images.githubusercontent.com/84103637/184446611-6b1dd737-0345-4c81-9f71-d270ca60dabe.png">
+## Final
+Count person based on the line on screen. 
+
+<img width="956" alt="Screenshot 2022-08-12 at 22 20 23" src="https://user-images.githubusercontent.com/84103637/184446611-6b1dd737-0345-4c81-9f71-d270ca60dabe.png">
 
