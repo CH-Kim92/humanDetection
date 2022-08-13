@@ -3,7 +3,10 @@ from cv2 import RETR_TREE
 from matplotlib.pyplot import contour
 import numpy as np
 
-
+"""
+Capture webcam and make background black.
+Moving stuffs will be displayed as white 
+"""
 cap = cv2.VideoCapture(1)
 object_detection = cv2.createBackgroundSubtractorMOG2(
     history=100, varThreshold=30)
